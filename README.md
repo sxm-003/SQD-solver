@@ -27,4 +27,6 @@ Set up the molecule in molecule.txt
   Do not simulate complex molecules as there is classical limitation.
   Since the bitsring achieved from running the ciruit if more than 50 qubits hinders the hamiltonian subspace creation
 
-The output is obtaine in results.txt
+`counts.csv` stores the bitstrings with their count
+
+The output is obtained in results.txt
