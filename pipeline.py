@@ -1,12 +1,6 @@
-# import pyscf
-# import pyscf.cc
-# import pyscf.mcscf
 import ffsim
 import numpy as np
 import csv
-
-# from qiskit_ibm_runtime import QiskitRuntimeService
-# from qiskit_ibm_runtime import SamplerV2 as SamplerV2
 
 from prefect import flow, task
 from prefect_qiskit import QuantumRuntime, runtime
@@ -16,7 +10,6 @@ from prefect_qiskit.vendors.ibm_quantum import IBMQuantumCredentials
 from prefect_qiskit import QuantumRuntime
 from qiskit.circuit import QuantumCircuit
 from qiskit.transpiler import generate_preset_pass_manager
-
 
 import molecule_build as mb
 import loader
