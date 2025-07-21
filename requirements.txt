@@ -1,0 +1,6 @@
+qiskit 
+qiskit-ibm-runtime 
+qiskit-addon-sqd 
+ffsim
+prefect-qiskit
+numpy
