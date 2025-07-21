@@ -22,6 +22,10 @@ prefect block register -m prefect_qiskit.vendors
 
 Follow the prefect-qiskit tutorial to add values to the blocks : https://qiskit-community.github.io/prefect-qiskit/tutorials/01_getting_started/#write-a-workflow-script
 
+Execute
+```
+python pipeline.py```
+
 Set up the molecule in molecule.txt
   Make sure the file structure remains unchanged 
   Do not simulate complex molecules as there is classical limitation.
